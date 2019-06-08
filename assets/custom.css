@@ -1,0 +1,302 @@
+.no-margin{margin: 0;}
+.margin-top-0{margin-top: 0;}
+.margin-top-10{margin-top: 10px;}
+.margin-top-20{margin-top: 20px;}
+.margin-top-30{margin-top: 30px;}
+.margin-top-40{margin-top: 40px;}
+.margin-bottom-20{margin-bottom: 20px;}
+.no-padding{padding:0 !important;}
+.padding-left-0{padding-left:0;}
+.padding-left-10 {
+  padding-left: 10px;
+}
+.padding-right-0{padding-right:0;}
+.inline-block {display: inline-block;}
+.vertical-middle{vertical-align: middle !important;}
+.bold{font-weight: bold;}
+.text-white{color: #fff !important;}
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+}
+.alert-danger .alert-link {
+    color: #843534;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+.no-list-type{list-style-type: none;}
+
+/*ajaxloader */
+#ajaxloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: rgba(240, 240, 240, 0.7);
+    /*change if the mask should have another color then white /*/
+    z-index: 99999; 
+    /*/ makes sure it stays on top /*/
+}
+
+#ajaxloader #status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /*centers the loading animation horizontally one the screen /*/
+    top: 50%; 
+    /*centers the loading animation vertically one the screen /*/
+    background-image: url(../assets/images/ajax-loader-large.gif);
+    /*path to your loading animation /*/
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px; 
+    /*is width and height divided by two */
+}
+
+/*************************AJAX LOADER END******************************/
+
+.validation-error{color:#ff0000;}
+.validation-error-hints{color:#ff0000;}
+
+.select2{width: 100% !important;}
+
+.table-responsive{padding-top: 5px !important;}
+/*.page-header h1{font-size:2em !important;}
+.page-header{margin-top: 20px !important;}*/
+
+.my-page-header{padding-top: 25px;}
+.my-page-header a{float: right;}
+.pagination{margin:0px !important;}
+.inline-form { 
+    display: inline-block; 
+    margin: 0;
+}
+.details-info {line-height: 28px;}
+.employee-photo {
+    display: inline-block;
+    max-height: 150px;
+    max-width: 200px;
+    position: relative;
+    top: 10px;
+}
+
+/*overwrite chosen default style*/
+
+.chosen-container-single .chosen-single{
+    height: 43px !important;
+    padding: 10px 18px !important;
+    border-radius: 0 !important;
+    line-height: 1.42857143 !important;
+    font-size: 15px !important;
+    background: none !important;
+    border: 1px solid #cccccc !important;
+    box-shadow: none !important;
+}
+
+.chosen-container-single .chosen-single div{top: 8px !important;}
+.chosen-container-single .chosen-search input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.activity-content {
+    margin-left: 50px;
+}
+.activity-date {
+    font-size: 12px;
+}
+.profile-photo {
+  width: 70px;
+  height: 80px;
+}
+/*overwrite chosen default style end*/
+
+/* style of notifications menu */
+.notifications-menu {
+  position: relative;
+}
+.notifications-menu > a { color: #fff; }
+.notifications-menu .label {
+  font-size: 11px;
+  line-height: 0.9;
+  padding: 2px 3px;
+  position: absolute;
+  right: 7px;
+  text-align: center;
+  top: 5px;
+}
+
+.notifications-menu .dropdown-menu {
+  left: auto;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  width: 280px;
+}
+.notifications-menu .dropdown-menu:before {
+  border-bottom: 20px solid #dfdfdf;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 2%;
+  top: -8px;
+  width: 0;
+  z-index: 99999;
+}
+.notifications-menu .dropdown-menu li {
+  display: block;
+  line-height: 1.2;
+  margin: auto;
+  padding: 0;
+  position: relative;
+}
+.notifications-menu .dropdown-menu li.header {
+  background-color: #dfdfdf;
+  border-bottom: 1px solid #f4f4f4;
+  border-radius: 4px 4px 0 0;
+  color: #444444;
+  font-size: 14px;
+  padding: 7px 10px;
+}
+
+.notifications-menu .dropdown-menu li.footer a{
+  background-color: #fff;
+  border-bottom: 1px solid #eeeeee;
+  border-radius: 0 0 4px 4px;
+  color: #444 !important;
+  font-size: 12px;
+  padding: 7px 10px;
+  text-align: center;
+}
+
+.notifications-menu .dropdown-menu li.footer a:hover {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.notifications-menu .dropdown-menu li a {
+  color: #444444;
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis;
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  white-space: nowrap;
+}
+
+.notifications-menu .dropdown-menu li .menu{
+  list-style: outside none none;
+  margin: 0;
+  max-height: 200px;
+  overflow-x: hidden;
+  padding: 0;
+}
+.notifications-menu .dropdown-menu li .menu li {
+  display: block;
+  padding-right: 0;
+}
+.notifications-menu .dropdown-menu li .menu a {
+  border-bottom: 1px solid #f4f4f4;
+  display: block;
+  white-space: nowrap;
+  color: #444444;
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis;
+}
+.notifications-menu .dropdown-menu li .menu a:hover {
+  background: #f4f4f4 none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+.dropdown-submenu,.dropdown-submenu .dropdown-menu > li{
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+.dropdown-submenu:hover > ul ,.dropdown-submenu li:hover > ul{
+  display: block;
+}
+.caret-right {
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px dashed;
+}
+
+.sweet-daterangepicker .has-feedback .form-control {
+  padding: 0 0 0 30.5px ;
+}
+
+.sweet-daterangepicker .form-control-feedback {
+  top: 14px;
+  left: 0;
+}
+
+.navbar .dropdown-menu a {
+  font-size: initial;
+  font-weight: normal;
+  padding: 3px 20px;
+  color: #333333 !important;
+}
+
+.form-control {
+  border: 1px solid #cccccc !important;
+  font-size: inherit;
+}
+
+.hash {
+  font-size: 18px;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.owner-dashboard-panel .btn {
+  padding: 10px 18px;
+  font-size: 15px;
+  margin: 0;
+}
+
+.btn-tm {
+    font-size: 13px;
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin: 0;
+}
+.invalid {
+  color: #db4c4a !important;
+  display: block;
+  margin-top: 5px;
+}
+
+.deadline-date {width:100px;}
+.deadline-time {width:70px;}
+input[type="date"], input[type="datetime-local"], input[type="email"], input[type="number"], input[type="password"], input[type="search-md"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], textarea.md-textarea {
+  font-size: inherit;
+}
+input[name="achievement"] {
+  width: 100px !important;
+}
+.status-dropdown {
+  z-index: 50000;
+}
+#task-manager-panel table a:not(.btn), .table a:not(.btn) {
+  text-decoration: none;
+}
+
+/* RESPONSE */
+@media only screen and (max-width:991px) {
+  .sm-margin-top-20 {
+    margin-top: 20px;
+  }
+}
